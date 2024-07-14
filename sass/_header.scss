@@ -1,0 +1,70 @@
+.header {
+    background-color: #007bff; // Color de fondo azul
+    color: #f06a11; // Texto blanco para mejor contraste
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        max-width: 150px; // Ajustar el tamaño del logo según sea necesario
+        height: auto;
+    }
+
+    .nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+
+            li {
+                margin-right: 20px;
+                a {
+                    color: #fff; // Texto blanco para enlaces
+                    text-decoration: none;
+                    padding: 10px 15px;
+                    display: inline-block;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .language-selector {
+        select {
+            background-color: transparent;
+            border: none;
+            color: #fff; // Texto blanco para mejor contraste
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            option {
+                background-color: #007bff;
+                color: #fff; // Texto blanco para opciones
+            }
+        }
+    }
+
+    .btn-login {
+        background-color: #fff; // Fondo blanco para el botón
+        color: #007bff; // Texto azul para el botón
+        border: 1px solid #fff; // Borde blanco
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #007bff; // Fondo azul al hacer hover
+            color: #fff; // Texto blanco al hacer hover
+            text-decoration: none;
+        }
+    }
+}

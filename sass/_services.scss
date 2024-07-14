@@ -1,0 +1,30 @@
+.projects {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 20px;
+        
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: $padding-small;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 4px;
+                margin-bottom: $padding-small;
+            }
+            
+            h3 {
+                margin-bottom: $padding-small;
+            }
+            
+            p {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import "./variables";
+@import "./base";
+@import "./mixins";
+@import "./header";
+@import "./main";
+@import "./footer";
+@import "./projects";
+@import "./services";
+@import "./navbar";
+
+body {
+    background: linear-gradient(to bottom, #bdb8f5, #f2f2f2); /* Cambia los colores según prefieras */
+    font-family: 'Arial', sans-serif; /* Ejemplo de fuente, ajusta según necesites */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}

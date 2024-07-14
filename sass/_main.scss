@@ -1,0 +1,50 @@
+.main {
+    padding: $padding-medium;
+    
+    .contact {
+        max-width: 600px;
+        margin: 0 auto;
+        
+        h2 {
+            text-align: center;
+            margin-bottom: $padding-medium;
+        }
+        
+        form {
+            background-color: #f8f9fa;
+            padding: $padding-medium;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+            label {
+                display: block;
+                margin-bottom: $padding-small;
+            }
+            
+            input[type='text'],
+            input[type='tel'],
+            input[type='email'],
+            textarea {
+                width: 100%;
+                padding: $padding-small;
+                margin-bottom: $padding-small;
+                border: 1px solid #ced4da;
+                border-radius: 4px;
+            }
+            
+            button {
+                width: 100%;
+                padding: $padding-small;
+                background-color: $primary-color;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                
+                &:hover {
+                    background-color: darken($primary-color, 10%);
+                }
+            }
+        }
+    }
+}

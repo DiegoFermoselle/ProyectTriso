@@ -1,0 +1,31 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: $padding-medium;
+    text-align: center;
+    font-size: 14px;
+    
+    .footer-info {
+        margin-bottom: $padding-small;
+    }
+    
+    .social-links {
+        margin-bottom: $padding-small;
+        
+        .social-link {
+            color: white;
+            text-decoration: none;
+            margin-right: $padding-small;
+            
+            img {
+                width: 20px;
+                height: auto;
+                margin-right: 5px;
+            }
+        }
+    }
+    
+    .copyright {
+        margin-top: $padding-small;
+    }
+}

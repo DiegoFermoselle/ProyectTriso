@@ -1,0 +1,11 @@
+// Mixin para establecer bordes redondeados
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+// Mixin para centrar elementos horizontalmente
+@mixin center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
